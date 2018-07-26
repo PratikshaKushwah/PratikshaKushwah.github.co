@@ -1,0 +1,218 @@
+body{
+  font: 15px/1.5 arial, helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header .logo{
+  float: left;
+}
+
+header .logo h1{
+  margin: 0;
+}
+
+header .nav{
+  float: right;
+}
+
+header .nav nav{
+  margin: 0;
+}
+
+header .highlight, .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+#showcase{
+  background: url('./img/showcaseimg.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+#showcase p{
+  color: #e8491d;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#registration{
+  background-color: #35424a;
+  color: #ffffff;
+}
+
+#registration .para{
+  float: left;
+}
+
+#registration .form{
+  float: right;
+  margin-top: 19px;
+}
+
+#registration input[type='email']{
+  padding: 0 5px 0 5px;
+  height: 21px;
+  width: 200px;
+}
+
+.button{
+  height: 25px;
+  background-color: #e8491d;
+  color: #ffffff;
+  border: 0;
+  padding: 0 8px 0 8px;
+}
+
+#images{
+  margin-top: 20px;
+}
+
+#images .box{
+  margin-bottom: 10px;
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#img1a{
+  width: 140px;
+  margin-top: 20px;
+}
+
+#img2a{
+  width: 180px;
+  margin-top: 20px;
+}
+
+#img3a{
+  width: 120px;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background-color: #e8491d;
+  color: #ffffff;
+  padding: 15px;
+}
+
+/* About page */
+.paragraph{
+  width: 60%;
+  margin: auto;
+
+}
+
+.paragraph h3{
+  color: #e8491d;
+}
+
+.paragraph p{
+
+}
+
+/* Services */
+#images1{
+  margin-top: 20px;
+}
+
+#images1 .box{
+  margin-bottom: 10px;
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  background-color: #35424a;
+  color: #ffffff
+}
+
+#img1{
+  width: 125px;
+  margin-top: 30px;
+}
+
+#img2{
+  width: 180px;
+  margin-top: 20px;
+}
+
+#img3{
+  width: 180px;
+  margin-top: 10px;
+}
+
+@media(max-width: 768px){
+  header .logo, header .nav, header li, #registration .para, #registration .form, #images .box,#showcase, #showcase h1, #showcase p,#images1 .box{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+    #showcase h1{
+      margin-top: 10px;
+      line-height: 50px;
+    }
+
+    #showcase p{
+     margin-top: 5px;
+     background-size: cover;
+
+    }
+
+    #registration .form input[type='email']{
+      margin: 0 0 5px 0;
+      width: 100%;
+    }
+
+    #registration .form .button{
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
